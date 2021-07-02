@@ -1,0 +1,38 @@
+td {
+  border-bottom: 1px solid;
+ 
+}
+.header{
+  text-align: center;
+}
+
+th {
+  border-bottom: 1px solid;
+   text-align: left;
+}
+
+
+tr {
+  border-bottom: 1px solid;
+  height: 40px;
+}
+
+table {
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 20px;
+            width: 100%;
+            table-layout:fixed;
+             margin-top: 150px;
+        }
+
+thead {
+
+  text-align: center;
+}
+th:nth-child(even) {
+            background-color: rgb(230, 195, 218);
+        }
+th:nth-child(odd) {
+            background-color: rgb(230, 195, 218);
+        }
